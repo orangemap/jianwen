@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>人文凤阳</title>
+    <link rel="stylesheet" href="css/onload.css"/>
+    <link rel="stylesheet" href="css/renwenfengyang.css"/>
+</head>
+<div id="header"></div>
+<div id="banner">
+    <img src="images/bannera.jpg" class="open">
+</div>
+<section id="humanity">
+    <div class="position">
+    <a>当前位置:</a>
+    <a >首页></a>
+    <a >人文凤阳</a>
+</div>
+     <div id="new-look">
+  <!-- 凤阳新面貌-->
+          <div class="main">
+              <div class="fengyangxinmao">
+                   <!-- 左-->
+                   <div class="xinmao-left lf">
+                        <div class="top">
+                            <p class="rt">更多></p>
+                            <h2 class="lf">凤阳新貌</h2>
+                        </div>
+                       <div class="bottom-xinmao left">
+                           <p class="rt">
+                               凤阳地处安徽省东北部，淮河中游南岸，总面积1949.5平方公里，人口74万。
+                               大自然的厚爱，馈赠给凤阳一方名山胜水，孕育了内涵厚重的淮河文化，哺育了一代农民皇帝朱元璋，
+                               造就了“敢为天下先”的小岗人，
+                               凤阳也因此以“帝王之乡”、“花鼓之乡”、“改革之乡”、“石英之乡”、“曲艺之乡”和“中国民间文化艺术之乡...
+                           </p>
+                           <img src="images/fyimg.jpg">
+                       </div>
+                   </div>
+                   <!-- 右-->
+                  <div class="xinmao-right lf">
+                      <div class="folkway">
+                            <div class="title">
+                                <p class="rt">更多></p>
+                                <h2>民风民俗</h2>
+                            </div>
+                          <div class="values">
+                              <div>
+                                  <img src="images/fy1.jpg">
+                                  <img src="images/fy2.jpg">
+                              </div>
+                              <ul class="lvyou-list">
+                                  <li><a href="#"> · 滁州凤阳县获中国最具价值文化（遗产）旅游</a></li>
+                                  <li><a href="#"> · 凤阳县小岗村大包干纪念馆获市级文明窗口</a></li>
+                                  <li><a href="#"> · 县旅游局开展旅游资源普查工作</a></li>
+                                  <li><a href="#"> · 红河县组团赴凤阳万景洽谈交流</a></li>
+                                  <li><a href="#"> · 县旅游局参加安徽高铁旅游营销推介活动</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="folkway">
+                          <div class="title">
+                              <p class="rt">更多></p>
+                              <h2>帝王之乡</h2>
+                          </div>
+                          <div class="values">
+                              <div class="center">
+                                  <div class="rt yanjiu">
+                                      <h3>凤阳朱元璋研究</h3>
+                                      <span>
+                                          1994年10月24日，
+                                          在安徽凤阳成立了朱元璋研究会...
+                                      </span>
+                                  </div>
+                                  <img src="images/zyz.jpg">
+                              </div>
+                              <ul class="lvyou-list">
+                                  <li><a href="#">· 朱元璋凤阳研究</a><span class="rt">01-22</span></li>
+                                  <li><a href="#">· 大明皇陵之碑</a><span class="rt">01-22</span></li>
+                                  <li><a href="#">· 楹联诗词</a><span class="rt">01-22</span></li>
+                                  <li><a href="#">· 研究指南</a><span class="rt">01-22</span></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+         <!-- 改革之乡-->
+         <div class="main-one">
+         </div>
+     </div>
+</section>
+<footer id="footer"></footer>
+<body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/onload.js"></script>
+<script src="js/renwenfengyang.js"></script>
+<script>
+    $(()=>{
+        var html='';
+        for(var i=0;i<4;i++){
+            html+=`
+         <div class="folkway">
+                 <div class="title">
+                     <p class="rt">更多></p>
+                     <h2>帝王之乡</h2>
+                 </div>
+                 <div class="values">
+                     <div class="center">
+                         <div class="rt yanjiu">
+                             <h3>凤阳朱元璋研究</h3>
+                                      <span>
+                                          1994年10月24日，
+                                          在安徽凤阳成立了朱元璋研究会...
+                                      </span>
+                         </div>
+                         <img src="images/zyz.jpg">
+                     </div>
+                     <ul class="lvyou-list">
+                         <li><a href="#">· 朱元璋凤阳研究</a><span class="rt">01-22</span></li>
+                         <li><a href="#">· 大明皇陵之碑</a><span class="rt">01-22</span></li>
+                         <li><a href="#">· 楹联诗词</a><span class="rt">01-22</span></li>
+                         <li><a href="#">· 研究指南</a><span class="rt">01-22</span></li>
+                     </ul>
+                 </div>
+             </div>
+      `;
+        }
+        $(".main-one").html(html);
+    }
+    );
+</script>
+</body>
+</html>

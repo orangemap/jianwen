@@ -1,0 +1,128 @@
+#container{
+    width: 100%;
+    height: 2000px;
+    background-color: #F0F0F0;
+    margin: 10px auto;
+}
+div.position{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 18px;
+}
+#eat-fengyang{
+    width: 1265px;
+    margin: 0 auto;
+    background-color:#fff;
+    height: 1900px;
+    border-radius: 10px;
+}
+#eat-fengyang-box{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.nav-bar{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/czfy.jpg")no-repeat ;
+    border-bottom: 2px solid #AE7B4C;
+    color: #777790;
+    width: 1160px;
+}
+.beauty-spot:after{
+     content: "";
+    display: block;
+    clear: both;
+
+}
+.beauty-spot{
+    margin-top: 20px;
+   margin-bottom: 30px;
+}
+.beauty-spot li:not(:last-child){
+    margin-right: 43px;
+}
+.beauty-spot li{
+    float: left;
+    width: 201px;
+}
+.beauty-spot li div{
+    height: 30px;
+    width: 201px;
+    background-color:#595959 ;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.beauty-spot li div a{
+    color: #fff;
+}
+.beauty-spot li p{
+    line-height: 1.5em;
+}
+#eat-fengyang-sub{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.title-one{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/zzfy.jpg")no-repeat ;
+    border-bottom: 2px solid #93974B;
+    color: #777790;
+    width: 1160px;
+}
+#eat-fengyang-walk{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.title-two{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/xzfy.jpg")no-repeat ;
+    border-bottom: 2px solid #6FA7C8;
+    color: #777790;
+    width: 1160px;
+}
+#eat-fengyang-lvyou{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.title-three{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/yzfy.jpg")no-repeat ;
+    border-bottom: 2px solid #A87C73;
+    color: #777790;
+    width: 1160px;
+}
+#eat-fengyang-shop{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.title-four{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/gzfy.jpg")no-repeat ;
+    border-bottom: 2px solid #A87C73;
+    color: #777790;
+    width: 1160px;
+}
+#eat-fengyang-recreation{
+    width: 1180px;
+    margin: 0 auto;
+}
+div.title-five{
+    height: 60px;
+    padding-right: 18px;
+    line-height: 60px;
+    background: url("../images/lzfy.jpg")no-repeat ;
+    border-bottom: 2px solid #5D9F7B;
+    color: #777790;
+    width: 1160px;
+}

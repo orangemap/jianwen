@@ -1,0 +1,126 @@
+#zhuti{
+    width:100%;
+    height: 1050px;
+    background-color:#F0F0F0;
+    margin: 10px auto;
+}
+#container{
+    width: 1285px;
+    margin: 0 auto;
+
+}
+div.position{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+.leisuremap-left{
+    width: 74.5%;
+}
+.leisuremap-right{
+    width: 24%;
+    margin-left: 10px;
+}
+div.title{
+    border: 1px solid #DCDCDC;
+}
+div.title-box{
+     height: 50px;
+     line-height: 50px;
+     background-color: #f7f7f7;
+
+ }
+div.title-box a{
+    color:#908090;
+    margin-right: 10px;
+}
+div.title h1{
+    height:50px;
+    font-weight: normal;
+    background:url("../images/tcon.jpg")left center no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    background-position: 17px;
+}
+div.title-Map{
+    padding-top: 10px;
+    height: 247px;
+    background-color: #fff;
+}
+div.title-Map>p{
+    width: 60%;
+    margin: 10px;
+    line-height: 2em;
+    color: #333;
+}
+.title-right{
+     border: 1px solid #DCDCDC;
+     height: 475px;
+     background-color: #fff;
+ }
+.title-right h1{
+    height:50px;
+    font-weight: normal;
+    background:url("../images/tcon.jpg")left center no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    background-position: 17px;
+}
+.title-img{
+    width: 172px;
+}
+.title-imge{
+    margin: 0 10px;
+}
+.title-small{
+    margin: 20px 0;
+    overflow: hidden;
+
+}
+.title-small p{
+    line-height: 2em;
+    color: #666;
+}
+.ulList{
+    width: 90%;
+    margin: 0 auto;
+    border-top:1px dashed #ccc;
+    color: #343434;
+    line-height: 2.3em;
+}
+div.node{
+    margin-top: 20px;
+}
+.fine-view{
+    background-color: #fff;
+    overflow: hidden;
+}
+.fine-view div{
+    width: 201px;
+    height: 200px;
+    line-height: 2em;
+    margin: 0 10px 0 23px;
+    padding-top: 20px;
+    float: left;
+}
+.fine-view div a{
+    color:#fff;
+}
+.fine-view div p{
+    text-align: center;
+    background-color: #595959;
+    height: 25px;
+   line-height: 25px;
+}
+[data-id="leisuremap"]{
+    margin-top: 20px;
+
+}
+.model div{
+    height: 230px;
+}
+.model span{
+    color: #444;
+}

@@ -1,0 +1,117 @@
+#zhuti{
+        width: 100%;
+        margin:10px auto;
+       background-color: #F0F0F0;
+       height: 2370px;
+}
+div.position{
+    width: 1157px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.container{
+    width: 1203px;
+    height: 440px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    border:1px solid #DBDBDB;
+}
+.container-title{
+    background: url("../images/jdxl.jpg") no-repeat;
+    width: 1203px;
+    height: 63px;
+    margin-bottom: 10px;
+    line-height: 63px;
+
+}
+.container-title p{
+    margin-right: 15px;
+    color: #666;
+}
+.native-place img{
+    margin: 10px 30px  10px 10px;
+}
+.native-place{
+    width: 584px;
+    border:1px solid #DBDBDB;
+    height: 165px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.native-place>div{
+    font-size: 18px;
+    margin-top:10px;
+    margin-left:5px;
+    width:340px;
+}
+.native-place p{
+    color: #666;
+    line-height: 1.5em;
+    margin-top: 40px;
+    margin-bottom:26px;
+    margin-right: 15px;
+}
+em{
+    color: #000;
+    font-style: normal;
+}
+.native-place-a{
+     display: inline-block;
+    width: 91px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #B57838;
+}
+.container-title1{
+    background: url("../images/tbg1.jpg") no-repeat;
+    width: 1203px;
+    height: 63px;
+    margin-bottom: 10px;
+    line-height: 63px;
+
+}
+.container-title1 p{
+    margin-right: 15px;
+    color: #666;
+}
+.container-title2{
+    background: url("../images/whzl.jpg") no-repeat;
+    width: 1203px;
+    height: 63px;
+    margin-bottom: 10px;
+    line-height: 63px;
+
+}
+.container-title2 p{
+    margin-right: 15px;
+    color: #666;
+}
+.container-title3{
+    background: url("../images/yxzl.jpg") no-repeat;
+    width: 1203px;
+    height: 63px;
+    margin-bottom: 10px;
+    line-height: 63px;
+
+}
+.container-title3 p{
+    margin-right: 15px;
+    color: #666;
+}
+.container-title4{
+    background: url("../images/hszl.jpg") no-repeat;
+    width: 1203px;
+    height: 63px;
+    margin-bottom: 10px;
+    line-height: 63px;
+
+}
+.container-title4 p{
+    margin-right: 15px;
+    color: #666;
+}

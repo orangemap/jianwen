@@ -1,0 +1,148 @@
+/* 页面通用格式*/
+body{
+    font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+    margin:0 auto;
+
+}
+ul,p,h1,h2,h3,h4,h5,h6,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+img{
+    vertical-align:bottom;
+}
+a{
+    color:#333333;
+    text-decoration:none;
+}
+a:hover{
+    color:#F0BB4E;
+    text-decoration:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+/*页头页尾样式*/
+div.list{
+    width: 1120px;
+    height: 42px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+div.roll{
+    width: 2240px;
+    height: 42px;
+    animation: move 20s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1120px);
+    }
+}
+div.items{
+    margin-left:5px ;
+    float: left;
+}
+#top{
+    margin:0 auto;
+    width:1217px;
+    height:30px;
+    line-height: 30px;
+    color: #838399;
+    padding-right: 5px;
+    box-sizing: border-box;
+
+}
+#top div.huise{
+    width:300px;
+    height:20px;
+    margin-top: 5px;
+    background-color:#E7E8E9;
+    float:left;
+}
+#menu{
+    margin:0 auto;
+    width:100%;
+    color: #EAF5FF;
+    height:70px;
+    line-height: 70px;
+    text-align: center;
+    background: url(../images/navbg.jpg) repeat-x;
+}
+#menu div.mianbao{
+    width:1217px;
+    margin: 0 auto;
+    background: url(../images/nav.jpg) repeat-x ;
+}
+#menu  ul{
+    color:#F9FFF8;
+    display: flex;
+    justify-content: space-around;
+}
+#menu ul>li{
+    width:112px;
+}
+#menu  ul li> a{
+    display: inline-block;
+    width: 112px;
+    color:#fff;
+    font-size:18px ;
+
+}
+#menu  ul li.hover{
+      background:url(../images/navh.png) no-repeat ;
+      color:#F0BB4E;
+  }
+#banner{
+    height:480px;
+    width:100%;
+}
+#banner{
+    position: relative;
+    width: 1217px;
+    height: 480px;
+    margin: 0 auto;
+}
+#banner>img{
+    position: absolute;
+    opacity: 0;
+    transition: all .5s linear;
+}
+#banner>img.open{
+    opacity: 1;
+    z-index: 100;
+}
+#footer{
+    margin:0 auto;
+    width:100%;}
+#footer{
+    background:url(../images/fbg.jpg) no-repeat top center;;
+    height: 213px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+#footer-box{
+    overflow: hidden;
+    width:255px;
+    margin: 0 auto;
+    padding-top:5px ;
+}
+#footer-box>li{
+    float: left;
+}
+#footer>p{
+    margin: 15px 0;
+}
+#menu  ul li>a:hover{
+    background:url(../images/navh.png) no-repeat ;
+    color:#F0BB4E;
+}

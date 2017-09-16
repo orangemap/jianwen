@@ -1,0 +1,173 @@
+#zhuti{
+     width: 100%;
+    margin: 10px auto;
+    background-color:#F0F0F0 ;
+  height: 1150px;
+}
+div.position{
+    width: 1157px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+#container{
+    width: 1240px;
+    margin: 0 auto;
+}
+#tour-operator-left{
+    width: 73%;
+    margin-right: 2%;
+    height: 1070px;
+    border: 1px solid #DCDCDC;
+  background-color: #fff;
+    border-radius: 10px;
+}
+#tour-operator-right{
+    width: 25%;
+    height: 1070px;
+}
+.title{
+    height: 50px;
+    line-height: 50px;
+    background-color:#FAFAFA ;
+
+}
+.title h1{
+    background: url("../images/tcon.jpg") no-repeat left center;
+    padding-left: 30px;
+    font-weight: normal;
+    background-position:17px ;
+    color: #444;
+}
+.title p{
+    color: #808080;
+    margin-right: 15px;
+}
+.title-img{
+    background: url("../images/qy1.jpg")no-repeat;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 31px;
+    width: 124px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.title-image{
+  text-align: center;
+    height: 200px;
+}
+.title-image li{
+    float: left;
+    margin: 10px 0 0 20px;
+    width: 201px;
+}
+.title-image li div{
+  line-height: 30px;
+    height: 30px;
+    background-color:#595959 ;
+    font-size: 16px;
+    color: #fff;
+
+}
+.title-img01{
+    background: url("../images/qy2.jpg")no-repeat;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 31px;
+    width: 124px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.title-img02{
+      background: url("../images/qy3.jpg")no-repeat;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 10px;
+      line-height: 31px;
+      width: 124px;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+  }
+.title-img03{
+    background: url("../images/qy4.jpg")no-repeat;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 31px;
+    width: 124px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.tianqi {
+     height: 131px;
+     background: url("../images/tqbg.jpg");
+ }
+.tianqi h1{
+   font-weight: normal;
+    color: #ffffff;
+   padding-top: 8px;
+    padding-left: 20px;
+}
+.img{
+    background: url("../images/tel.jpg") no-repeat;
+    height: 52px;
+    margin: 10px 0;
+}
+.title-right{
+    border: 1px solid #DCDCDC;
+    height: 865px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.title-right h1{
+    font-weight: normal;
+    background:url("../images/tcon.jpg")left center no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    background-position: 17px;
+    height: 50px;
+    line-height: 50px;
+    color: #444;
+}
+.title-img05{
+    width: 172px;
+}
+.title-imge{
+    margin: 0 10px;
+}
+.title-small{
+    margin: 20px 0;
+    overflow: hidden;
+
+}
+.title-small p{
+    line-height: 2em;
+    color: #666;
+}
+.ulList{
+    width: 90%;
+    margin: 0 auto;
+    border-top:1px dashed #ccc;
+    color: #343434;
+    line-height: 2.3em;
+}
+div.title-box{
+    height: 50px;
+    line-height: 50px;
+    background-color: #f7f7f7;
+
+}
+div.title-box a{
+    color: #808080;
+    margin-right: 10px;
+}
+.ulList ul li{
+    line-height: 2.5em;
+}
